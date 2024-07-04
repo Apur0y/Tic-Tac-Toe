@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    height: 10VH;
+    background-color: rgb(46, 66, 66);
+    color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body{
+    background-color: rgb(103, 129, 134);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    width: vw;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.7rem;
+    border: none;
+    box-shadow:  0 0 1rem gray ;
+    font-size: 8vmin;
+    color: brown;
+    background-color: azure;
+}
+#resetbutton{
+   
+    color: bisque;
+    background-color: rgb(1, 19, 4);
+    height: 12vmin;
+    width: 30vmin;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    
+
+}
+.newgame{
+    color: bisque;
+    background-color: rgb(1, 19, 4);
+    height: 8vmin;
+    width: 30vmin;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+
+}
+
+#resetbutton:hover{
+
+    box-shadow: 0 0 1rem red;
+}
+.box:hover{
+    box-shadow:0 0 1rem rgb(49, 48, 48);
+}
+
+#winner{
+    color: beige;
+    font-size: 3rem;
+}
+.msg-contain{
+    height: 10 vmin;
+}
+.hide{
+    display: none;
+}
